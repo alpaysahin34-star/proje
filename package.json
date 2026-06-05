@@ -1,0 +1,48 @@
+{
+  "name": "seller-command-center",
+  "version": "1.0.0",
+  "description": "E-ticaret saticilari icin gelismis operasyon ve karlilik paneli.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpaysahin34-star/proje.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "seller",
+    "dashboard",
+    "marketplace"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpaysahin34-star/proje/issues"
+  },
+  "homepage": "https://github.com/alpaysahin34-star/proje#readme",
+  "dependencies": {
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.7",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.15"
+    }
+  }
+}
