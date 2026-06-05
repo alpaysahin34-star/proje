@@ -97,7 +97,7 @@ export default function Home() {
               <span className="pill">Helpigo benzeri gelişmiş panel</span>
               <h2>Kar, reklam, stok ve müşteri sorularını tek ekranda yönetin.</h2>
               <p>
-                Panel; pazar yeri entegrasyonlarını, marj hesaplarını, operasyon SLA'lerini ve
+                Panel; pazar yeri entegrasyonlarını, marj hesaplarını, operasyon SLA&apos;lerini ve
                 insan onaylı AI akışlarını satıcının günlük kararlarına göre önceliklendirir.
               </p>
               <div className="hero-actions">
@@ -138,8 +138,8 @@ export default function Home() {
               </div>
             </div>
             <p>
-              "Premium organizer set" için %3 fiyat artışı önerildi. Tahmini marj etkisi +₺8.400,
-              stok bitiş tahmini 12 gün.
+              &quot;Premium organizer set&quot; için %3 fiyat artışı önerildi. Tahmini marj
+              etkisi +₺8.400, stok bitiş tahmini 12 gün.
             </p>
             <button className="ghost-button">
               Önerileri incele
