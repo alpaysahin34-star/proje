@@ -57,8 +57,8 @@ export function RevenueChart({ data }: RevenueChartProps) {
               borderRadius: 18,
               color: "#e2e8f0",
             }}
-            formatter={(value: number, name) => [
-              currencyFormatter.format(value),
+            formatter={(value, name) => [
+              currencyFormatter.format(Number(value ?? 0)),
               name === "revenue" ? "Ciro" : name === "profit" ? "Kar" : "Reklam",
             ]}
             labelStyle={{ color: "#f8fafc", fontWeight: 700 }}
